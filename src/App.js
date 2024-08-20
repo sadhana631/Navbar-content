@@ -13,12 +13,14 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route component={NotFound} />
-      </Switch>
-    )
+         <ThemeContext.Provider value={{theme, toggleTheme: this.toggleTheme}}>
+           <Switch>
+             <Route exact path="/" component={Home} />
+             <Route exact path="/about" component={About} />
+             <Route component={NotFound} />
+           </Switch>
+         </ThemeContext.Provider>  
+       )
   }
 }
 

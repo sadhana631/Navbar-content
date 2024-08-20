@@ -5,17 +5,17 @@ import ThemeContext from '../../context/ThemeContext'
 import './index.css'
 
 const NotFound = () => (
-  <ThemeContext.Consumer>  
+  <ThemeContext.Consumer>
     {value => {
       const {isDarkTheme} = value
 
       const notFoundBgClassName = isDarkTheme
-        ?   'not-found-bg-dark'
-        :   'not-found-bg-light'
+        ? 'not-found-bg-dark'
+        : 'not-found-bg-light'
 
       const NotFoundContextClassName = isDarkTheme
-        ?   'not-found-content-text-light'
-        :   'not-found-content-text-dark'
+        ? 'not-found-content-text-light'
+        : 'not-found-content-text-dark'
 
       return (
         <div className={`not-found-app-container ${notFoundBgClassName}`}>
@@ -28,16 +28,14 @@ const NotFound = () => (
               />
               <h1
                 className={`not-found-heading ${NotFoundContextClassName}`}
-              >
-              </h1>
+              ></h1>
               <p
-               className={`not-found-content ${NotFoundContextClassName}`}
-              >
-              </p>     
+                className={`not-found-content ${NotFoundContextClassName}`}
+              ></p>
             </div>
           </div>
-        </div>  
-      )    
+        </div>
+      )
     }}
   </ThemeContext.Consumer>
 )
