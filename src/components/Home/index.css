@@ -1,51 +1,51 @@
 .home-app-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .home-bg-dark {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .home-lg-dark {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .home-page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
 
 .hpme-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .home-image {
-    height: 124px;
+  height: 124px;
 }
 
 .home-heading {
-    font-family: 'Roboto';
-    font-size: 32px;
+  font-family: 'Roboto';
+  font-size: 32px;
 }
 
-@media screen and (min-width:768px) {
-    .home-heading {
-        font-size: 48px;
-    }
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 48px;
+  }
 }
 
 .home-text-light {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .home-text-dark {
-    color: #1e293b;
+  color: #1e293b;
 }

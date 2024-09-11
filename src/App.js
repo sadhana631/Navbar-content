@@ -19,13 +19,13 @@ class App extends Component {
 
   render() {
     const {isDarkTheme} = this.state
-    
+
     return (
-      <ThemeContext.Provider 
-         value={{
-           isDarktheme, 
-           toggleTheme: this.toggleTheme,
-          }}
+      <ThemeContext.Provider
+        value={{
+          isDarkTheme,
+          toggleTheme: this.toggleTheme,
+        }}
       >
         <Switch>
           <Route exact path="/" component={Home} />
