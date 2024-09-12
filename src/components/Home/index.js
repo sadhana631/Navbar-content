@@ -12,7 +12,7 @@ const Home = () => (
       const homeBgClassName = isDarkTheme ? 'home-bg-dark' : 'home-lg-dark'
 
       const homeImageUrl = isDarkTheme
-        ? 'https://assets.ccbp.in/frontend/react-js/about-dark-img.pmg'
+        ? 'https://assets.ccbp.in/frontend/react-js/home-dark-img.png'
         : 'https://assets.ccbp.in/frontend/react-js/home-light-img.png'
 
       const homeTextClassName = isDarkTheme
