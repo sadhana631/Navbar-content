@@ -22,7 +22,7 @@ const Navbar = () => (
         : 'navbar-bg-light'
 
       const websiteLogoImageURL = isDarkTheme
-        ? 'https//assets.cbp.in/frontend/react-js/website-logo-dark-theme-img.png'
+        ? 'https//assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png'
         : 'https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png'
 
       const navItemClassName = isDarkTheme

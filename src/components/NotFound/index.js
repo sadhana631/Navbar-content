@@ -26,12 +26,12 @@ const NotFound = () => (
                 src="https://assets.ccbp.in/frontend/react-js/not-found-img.png"
                 alt="not found"
               />
-              <h1
+              <h1>
                 className={`not-found-heading ${NotFoundContextClassName}`}
-              ></h1>
-              <p
+              </h1>
+              <p>
                 className={`not-found-content ${NotFoundContextClassName}`}
-              ></p>
+              </p>
             </div>
           </div>
         </div>
